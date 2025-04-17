@@ -1,0 +1,100 @@
+[
+  {
+    "benchmarks": [
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 34359738368,
+          "bandwidth": 0.43375150073951135,
+          "execution_time": 73.774960883,
+          "thread_bandwidth_avg": 0.43375150073951135,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 34359738368,
+              "bandwidth": 0.43375150073951135,
+              "execution_time": 73.774960883
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 34359738368,
+          "bandwidth": 0.793534870329688,
+          "execution_time": 40.325890136,
+          "thread_bandwidth_avg": 0.793534870329688,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 34359738368,
+              "bandwidth": 0.793534870329688,
+              "execution_time": 40.325890136
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 34359738368,
+          "bandwidth": 1.2321426054935443,
+          "execution_time": 25.971019797,
+          "thread_bandwidth_avg": 1.2321426054935443,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 34359738368,
+              "bandwidth": 1.2321426054935443,
+              "execution_time": 25.971019797
+            }
+          ]
+        }
+      }
+    ],
+    "bm_name": "sequential_writes",
+    "bm_type": "single",
+    "matrix_args": [
+      "access_size",
+      "number_threads",
+      "persist_instruction"
+    ]
+  }
+]

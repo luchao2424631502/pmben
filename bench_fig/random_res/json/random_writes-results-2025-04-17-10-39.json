@@ -1,0 +1,106 @@
+[
+  {
+    "benchmarks": [
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 6442450944,
+          "bandwidth": 0.10363312806473644,
+          "execution_time": 57.896544397,
+          "thread_bandwidth_avg": 0.10363312806473644,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 6442450944,
+              "bandwidth": 0.10363312806473644,
+              "execution_time": 57.896544397
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 12817793024,
+          "bandwidth": 0.20057053857381854,
+          "execution_time": 59.517714241,
+          "thread_bandwidth_avg": 0.20057053857381854,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 12817793024,
+              "bandwidth": 0.20057053857381854,
+              "execution_time": 59.517714241
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 25635586048,
+          "bandwidth": 0.36122463281292905,
+          "execution_time": 66.0946066,
+          "thread_bandwidth_avg": 0.36122463281292905,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 25635586048,
+              "bandwidth": 0.36122463281292905,
+              "execution_time": 66.0946066
+            }
+          ]
+        }
+      }
+    ],
+    "bm_name": "random_writes",
+    "bm_type": "single",
+    "matrix_args": [
+      "access_size",
+      "number_threads",
+      "persist_instruction"
+    ]
+  }
+]

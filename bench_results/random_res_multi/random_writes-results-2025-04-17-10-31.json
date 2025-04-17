@@ -1,0 +1,211 @@
+[
+  {
+    "benchmarks": [
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 6442450944,
+          "bandwidth": 0.6720485107410938,
+          "execution_time": 8.927926934,
+          "thread_bandwidth_avg": 0.08400606384263673,
+          "thread_bandwidth_std_dev": 0.0007360155431120424,
+          "threads": [
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08400728270155496,
+              "execution_time": 8.927797399
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08401905086809792,
+              "execution_time": 8.926546923
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08516743618675947,
+              "execution_time": 8.806182663
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.0844075426992515,
+              "execution_time": 8.885461844
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08476958991103084,
+              "execution_time": 8.847512425
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08511227314400831,
+              "execution_time": 8.811890134
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08441680825684997,
+              "execution_time": 8.884486579
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.08455969636164426,
+              "execution_time": 8.869473665
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 12817793024,
+          "bandwidth": 1.37725037252344,
+          "execution_time": 8.667632435,
+          "thread_bandwidth_avg": 0.17215629656543,
+          "thread_bandwidth_std_dev": 0.0025555474229621857,
+          "threads": [
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.17379077917662766,
+              "execution_time": 8.631067811
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.1730601745861292,
+              "execution_time": 8.667505413
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.17461416656865567,
+              "execution_time": 8.590368293
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.17580258762703593,
+              "execution_time": 8.53229762
+            },
+            {
+              "accessed_bytes": 1543503872,
+              "bandwidth": 0.17200486633080708,
+              "execution_time": 8.357321689
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.17474652514131991,
+              "execution_time": 8.583861675
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.1743129798023963,
+              "execution_time": 8.605211165
+            },
+            {
+              "accessed_bytes": 1610612736,
+              "bandwidth": 0.17554851830049095,
+              "execution_time": 8.544646315
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "random",
+          "memory_range": 34359738368,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_operations": 100000000,
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "cache",
+          "prefault_file": true,
+          "random_distribution": "uniform"
+        },
+        "results": {
+          "accessed_bytes": 25635586048,
+          "bandwidth": 2.510555148039732,
+          "execution_time": 9.509848855,
+          "thread_bandwidth_avg": 0.3138193935049665,
+          "thread_bandwidth_std_dev": 0.0027618711730969863,
+          "threads": [
+            {
+              "accessed_bytes": 3154116608,
+              "bandwidth": 0.3140878548779113,
+              "execution_time": 9.352478787
+            },
+            {
+              "accessed_bytes": 3154116608,
+              "bandwidth": 0.31417183211575883,
+              "execution_time": 9.349978896
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.3180120960753607,
+              "execution_time": 9.433603429
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.3156162015191503,
+              "execution_time": 9.505215466
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.3167394134940778,
+              "execution_time": 9.471508351
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.31781501064860274,
+              "execution_time": 9.439453454
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.3154624269788145,
+              "execution_time": 9.509848855
+            },
+            {
+              "accessed_bytes": 3221225472,
+              "bandwidth": 0.3160999496167974,
+              "execution_time": 9.490669023
+            }
+          ]
+        }
+      }
+    ],
+    "bm_name": "random_writes",
+    "bm_type": "single",
+    "matrix_args": [
+      "access_size",
+      "number_threads",
+      "persist_instruction"
+    ]
+  }
+]

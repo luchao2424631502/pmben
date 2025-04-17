@@ -1,0 +1,11 @@
+# Represents the database workload logging (small sequential writes)
+sequential_writes:
+  matrix:
+    number_threads: [ 8, 16, 32 ]
+    access_size: [ 256, 512, 1024, 4096 ]
+    persist_instruction: [ cache ]
+
+  args:
+    memory_range: 256G
+    exec_mode: sequential
+    operation: write

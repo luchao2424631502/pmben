@@ -1,0 +1,4263 @@
+[
+  {
+    "benchmarks": [
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 0.36742444314807654,
+          "execution_time": 81.649439931,
+          "thread_bandwidth_avg": 0.36742444314807654,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 0.36742444314807654,
+              "execution_time": 81.649439931
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.6093650587022457,
+          "execution_time": 18.640891846,
+          "thread_bandwidth_avg": 1.6093650587022457,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.6093650587022457,
+              "execution_time": 18.640891846
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 0.7286402540686725,
+          "execution_time": 41.172581164,
+          "thread_bandwidth_avg": 0.7286402540686725,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 0.7286402540686725,
+              "execution_time": 41.172581164
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.6189445877951072,
+          "execution_time": 18.530590995,
+          "thread_bandwidth_avg": 1.6189445877951072,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.6189445877951072,
+              "execution_time": 18.530590995
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.426515493752177,
+          "execution_time": 21.030265799,
+          "thread_bandwidth_avg": 1.426515493752177,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.426515493752177,
+              "execution_time": 21.030265799
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.6271775036342,
+          "execution_time": 18.436833064,
+          "thread_bandwidth_avg": 1.6271775036342,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.6271775036342,
+              "execution_time": 18.436833064
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.690527007779426,
+          "execution_time": 11.150231874,
+          "thread_bandwidth_avg": 2.690527007779426,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 2.690527007779426,
+              "execution_time": 11.150231874
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.6375991628904005,
+          "execution_time": 18.319501304,
+          "thread_bandwidth_avg": 1.6375991628904005,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.6375991628904005,
+              "execution_time": 18.319501304
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 3.6679485632975046,
+          "execution_time": 8.178958751,
+          "thread_bandwidth_avg": 3.6679485632975046,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 3.6679485632975046,
+              "execution_time": 8.178958751
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 1,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.6517253580191684,
+          "execution_time": 18.162825832,
+          "thread_bandwidth_avg": 1.6517253580191684,
+          "thread_bandwidth_std_dev": 0.0,
+          "threads": [
+            {
+              "accessed_bytes": 32212254720,
+              "bandwidth": 1.6517253580191684,
+              "execution_time": 18.162825832
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 1.4685834868060923,
+          "execution_time": 20.427847834,
+          "thread_bandwidth_avg": 0.3671458717015231,
+          "thread_bandwidth_std_dev": 0.0028857609537204917,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.3696222914860785,
+              "execution_time": 20.290983993
+            },
+            {
+              "accessed_bytes": 7985954816,
+              "bandwidth": 0.3666201028886245,
+              "execution_time": 20.286667156
+            },
+            {
+              "accessed_bytes": 8120172544,
+              "bandwidth": 0.37145560035331765,
+              "execution_time": 20.359095388
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.3671458717015231,
+              "execution_time": 20.427847834
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.4973072081619794,
+          "execution_time": 12.012939338,
+          "thread_bandwidth_avg": 0.6243268020404948,
+          "thread_bandwidth_std_dev": 0.0017014947942171413,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6254716370442811,
+              "execution_time": 11.990951397
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6261575195912573,
+              "execution_time": 11.977816708
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6263325636583548,
+              "execution_time": 11.974469212
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6243268020404948,
+              "execution_time": 12.012939338
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.907683230348125,
+          "execution_time": 10.317492527,
+          "thread_bandwidth_avg": 0.7269208075870313,
+          "thread_bandwidth_std_dev": 0.005343363325831436,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.7315461235612323,
+              "execution_time": 10.25225855
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.7269270062867488,
+              "execution_time": 10.317404547
+            },
+            {
+              "accessed_bytes": 8120172544,
+              "bandwidth": 0.7343634078839465,
+              "execution_time": 10.298034895
+            },
+            {
+              "accessed_bytes": 7985954816,
+              "bandwidth": 0.7239427697379096,
+              "execution_time": 10.273602156
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.4798350514107526,
+          "execution_time": 12.097578822,
+          "thread_bandwidth_avg": 0.6199587628526881,
+          "thread_bandwidth_std_dev": 0.0016095933255870958,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6213868785740548,
+              "execution_time": 12.069775302
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6216946167513534,
+              "execution_time": 12.063800776
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6216079046750301,
+              "execution_time": 12.065483633
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6199587628526881,
+              "execution_time": 12.097578822
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 5.650558184165191,
+          "execution_time": 5.309209997,
+          "thread_bandwidth_avg": 1.4126395460412977,
+          "thread_bandwidth_std_dev": 0.006596900069950318,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 1.419533804642127,
+              "execution_time": 5.283424724
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 1.4175290122983817,
+              "execution_time": 5.290897001
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 1.4203284724725012,
+              "execution_time": 5.28046867
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 1.4126395460412977,
+              "execution_time": 5.309209997
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.4904444283006457,
+          "execution_time": 12.04604273,
+          "thread_bandwidth_avg": 0.6226111070751614,
+          "thread_bandwidth_std_dev": 0.0011826113186099879,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6226156168099363,
+              "execution_time": 12.045955478
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6229028118512306,
+              "execution_time": 12.04040158
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6232933342393171,
+              "execution_time": 12.032857706
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6245203379871027,
+              "execution_time": 12.009216584
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.521876736167274,
+          "execution_time": 3.520351318,
+          "thread_bandwidth_avg": 2.1304691840418184,
+          "thread_bandwidth_std_dev": 0.0021926298183431643,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.1305219715340704,
+              "execution_time": 3.520264095
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.133124199940661,
+              "execution_time": 3.515969675
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.1330337751513113,
+              "execution_time": 3.516118726
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.131360168362403,
+              "execution_time": 3.518879686
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.48053261036409,
+          "execution_time": 12.094176821,
+          "thread_bandwidth_avg": 0.6201331525910225,
+          "thread_bandwidth_std_dev": 0.000581133307345096,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6201374994380345,
+              "execution_time": 12.094092047
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6208201990346032,
+              "execution_time": 12.080792493
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6206577823150182,
+              "execution_time": 12.083953853
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6206487684409554,
+              "execution_time": 12.084129352
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.392619029618146,
+          "execution_time": 3.574569499,
+          "thread_bandwidth_avg": 2.0981547574045365,
+          "thread_bandwidth_std_dev": 0.0017321258230069334,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.0998652681086893,
+              "execution_time": 3.571657722
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.100097592207141,
+              "execution_time": 3.571262606
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.0996698607610735,
+              "execution_time": 3.571990121
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 2.098223949022236,
+              "execution_time": 3.574451623
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 4,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.490984510951365,
+          "execution_time": 12.043430968,
+          "thread_bandwidth_avg": 0.6227461277378412,
+          "thread_bandwidth_std_dev": 0.0008039649489845026,
+          "threads": [
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6227509822087238,
+              "execution_time": 12.043337087
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6227921951806659,
+              "execution_time": 12.042540125
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6237318126253866,
+              "execution_time": 12.024398705
+            },
+            {
+              "accessed_bytes": 8053063680,
+              "bandwidth": 0.6237286542997599,
+              "execution_time": 12.024459592
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.939851351037881,
+          "execution_time": 10.204597586,
+          "thread_bandwidth_avg": 0.3674814188797351,
+          "thread_bandwidth_std_dev": 0.004426295351932046,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3709385290569254,
+              "execution_time": 10.109491752
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36748177874159,
+              "execution_time": 10.204587593
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3723010641576924,
+              "execution_time": 10.072493369
+            },
+            {
+              "accessed_bytes": 3959422976,
+              "bandwidth": 0.3660683097465432,
+              "execution_time": 10.073256553
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3684527804185337,
+              "execution_time": 10.177694943
+            },
+            {
+              "accessed_bytes": 4093640704,
+              "bandwidth": 0.37385357551016923,
+              "execution_time": 10.197842818
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.37246095871108903,
+              "execution_time": 10.068169327
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3732799897872506,
+              "execution_time": 10.046078286
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.920772954671019,
+          "execution_time": 10.271253694,
+          "thread_bandwidth_avg": 0.3650966193338774,
+          "thread_bandwidth_std_dev": 0.0007255044314219319,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3653438650498154,
+              "execution_time": 10.264302644
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3650966193338774,
+              "execution_time": 10.271253694
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36602895330191554,
+              "execution_time": 10.245091177
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36544532515417555,
+              "execution_time": 10.261452923
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3654144544618511,
+              "execution_time": 10.262319824
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36629344488383503,
+              "execution_time": 10.237693446
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3651616457249712,
+              "execution_time": 10.269424634
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36614298683233504,
+              "execution_time": 10.241900391
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 5.790937982211044,
+          "execution_time": 5.180507906,
+          "thread_bandwidth_avg": 0.7238672477763805,
+          "thread_bandwidth_std_dev": 0.006801872745073502,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7295093376085386,
+              "execution_time": 5.140441399
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7252657423723389,
+              "execution_time": 5.170518585
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7312914278568368,
+              "execution_time": 5.127914614
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7242844959663498,
+              "execution_time": 5.177523502
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7238857201436016,
+              "execution_time": 5.180375708
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.733243545999107,
+              "execution_time": 5.11426254
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.7315923210382835,
+              "execution_time": 5.125805578
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.733204524288375,
+              "execution_time": 5.114534725
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.827420371964425,
+          "execution_time": 10.610378385,
+          "thread_bandwidth_avg": 0.35342754649555314,
+          "thread_bandwidth_std_dev": 0.0005670331025031289,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35343473935217645,
+              "execution_time": 10.61016245
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35371093512429685,
+              "execution_time": 10.601877487
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35369127026959635,
+              "execution_time": 10.60246694
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35373226533963315,
+              "execution_time": 10.601238189
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35431467683179135,
+              "execution_time": 10.583812202
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35427644596257346,
+              "execution_time": 10.584954328
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3541348441410508,
+              "execution_time": 10.589186752
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.353432087686093,
+              "execution_time": 10.610242054
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.324632961126312,
+          "execution_time": 3.603762489,
+          "thread_bandwidth_avg": 1.040579120140789,
+          "thread_bandwidth_std_dev": 0.0018131712223152154,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.042314885768509,
+              "execution_time": 3.597761148
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0409967199259336,
+              "execution_time": 3.602316826
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0425500752376835,
+              "execution_time": 3.596949527
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0406124363712705,
+              "execution_time": 3.603647111
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0416787518763198,
+              "execution_time": 3.599958234
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0428480678184555,
+              "execution_time": 3.595921703
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0426508291286596,
+              "execution_time": 3.596601945
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0428792922347228,
+              "execution_time": 3.595814039
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.8196302511085456,
+          "execution_time": 10.639692913,
+          "thread_bandwidth_avg": 0.3524537813885682,
+          "thread_bandwidth_std_dev": 0.00032636870739614665,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35270758565591614,
+              "execution_time": 10.632036714
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3527564478292412,
+              "execution_time": 10.630564014
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3524581003506026,
+              "execution_time": 10.639562536
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3525910049534071,
+              "execution_time": 10.635552091
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35247810066108815,
+              "execution_time": 10.638958826
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3526337436686681,
+              "execution_time": 10.634263077
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.352519063143766,
+              "execution_time": 10.637722586
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35318419471999213,
+              "execution_time": 10.617689172
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.457492208598733,
+          "execution_time": 3.54715077,
+          "thread_bandwidth_avg": 1.0571865260748416,
+          "thread_bandwidth_std_dev": 0.00129574289091461,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0581158717742218,
+              "execution_time": 3.544035299
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.059091004863546,
+              "execution_time": 3.540772212
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.058087510594214,
+              "execution_time": 3.544130294
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.058135707142601,
+              "execution_time": 3.543968864
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0572555788891642,
+              "execution_time": 3.546919094
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0580967748701569,
+              "execution_time": 3.544099263
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0579274941972254,
+              "execution_time": 3.54466636
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0592278128913963,
+              "execution_time": 3.540314892
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.811937619330232,
+          "execution_time": 10.668799974,
+          "thread_bandwidth_avg": 0.351492202416279,
+          "thread_bandwidth_std_dev": 0.00029779973711054834,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3517026980045554,
+              "execution_time": 10.662414651
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35167516095113577,
+              "execution_time": 10.663249545
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35186741072675704,
+              "execution_time": 10.657423466
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3514935465773132,
+              "execution_time": 10.668759175
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.351558218108793,
+              "execution_time": 10.666796584
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35190366226484776,
+              "execution_time": 10.656325586
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35161472080744205,
+              "execution_time": 10.665082484
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35195432734307347,
+              "execution_time": 10.65479157
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.037805085314368,
+          "execution_time": 3.732362216,
+          "thread_bandwidth_avg": 1.004725635664296,
+          "thread_bandwidth_std_dev": 0.0007979732337759554,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0053526977610432,
+              "execution_time": 3.730034254
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0050698392155526,
+              "execution_time": 3.731084004
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0053236819064282,
+              "execution_time": 3.730141911
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.004725635664296,
+              "execution_time": 3.732362216
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0049095822353307,
+              "execution_time": 3.731679015
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0059982811153891,
+              "execution_time": 3.727640564
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0051942291333966,
+              "execution_time": 3.730622293
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 1.0060351944001644,
+              "execution_time": 3.72750379
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 8,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.878756161132288,
+          "execution_time": 10.421167449,
+          "thread_bandwidth_avg": 0.359844520141536,
+          "thread_bandwidth_std_dev": 0.0005073300601100967,
+          "threads": [
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36009923717334286,
+              "execution_time": 10.413796012
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3603933205265148,
+              "execution_time": 10.405298285
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36014408750679394,
+              "execution_time": 10.412499136
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3603048111830035,
+              "execution_time": 10.40785436
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3598477412467539,
+              "execution_time": 10.421074166
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.3607158324201457,
+              "execution_time": 10.395995027
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.35997742546431116,
+              "execution_time": 10.417319906
+            },
+            {
+              "accessed_bytes": 4026531840,
+              "bandwidth": 0.36044214557942683,
+              "execution_time": 10.403888796
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 5.847489920773722,
+          "execution_time": 5.130406449,
+          "thread_bandwidth_avg": 0.3654681200483576,
+          "thread_bandwidth_std_dev": 0.005474900484974811,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.37022214505120965,
+              "execution_time": 5.064526866
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3669934597345895,
+              "execution_time": 5.109082874
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3716555100482688,
+              "execution_time": 5.044994489
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3654681200483576,
+              "execution_time": 5.130406449
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3675504624540796,
+              "execution_time": 5.101340337
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.37267152239016826,
+              "execution_time": 5.031240348
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.37177114183226945,
+              "execution_time": 5.043425347
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3725642456004452,
+              "execution_time": 5.032689052
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3726594726058629,
+              "execution_time": 5.031403031
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.369509462007904,
+              "execution_time": 5.074294958
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3660021137072981,
+              "execution_time": 5.122921234
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.3728874778867384,
+              "execution_time": 5.028326536
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.36768657583012365,
+              "execution_time": 5.099451879
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.37274782861969874,
+              "execution_time": 5.030210389
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.37193615538910646,
+              "execution_time": 5.041187776
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.36958726835181177,
+              "execution_time": 5.073226706
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.7340242609985737,
+          "execution_time": 10.97283606,
+          "thread_bandwidth_avg": 0.17087651631241085,
+          "thread_bandwidth_std_dev": 0.000557379114217096,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17092718499321197,
+              "execution_time": 10.969583335
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17166005833272452,
+              "execution_time": 10.92275057
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17194880963838846,
+              "execution_time": 10.904408143
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17110597306875777,
+              "execution_time": 10.958121253
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.170935200693865,
+              "execution_time": 10.969068936
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17111816180016862,
+              "execution_time": 10.957340707
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17185368769094703,
+              "execution_time": 10.910443792
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17146171184609055,
+              "execution_time": 10.935385981
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17141936542109878,
+              "execution_time": 10.938087394
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1710248326097689,
+              "execution_time": 10.963320188
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17087859418542553,
+              "execution_time": 10.972702631
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17102236933871487,
+              "execution_time": 10.963478095
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17098712626928425,
+              "execution_time": 10.965737836
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17100015755379955,
+              "execution_time": 10.964902178000001
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1714444912271606,
+              "execution_time": 10.936484378
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17176751110646482,
+              "execution_time": 10.915917614
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.387568607756497,
+          "execution_time": 3.576721861,
+          "thread_bandwidth_avg": 0.5242230379847811,
+          "thread_bandwidth_std_dev": 0.0037968010987192297,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5270426882287073,
+              "execution_time": 3.55758659
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.525618940038847,
+              "execution_time": 3.567223053
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5284285575013687,
+              "execution_time": 3.548256379
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5249638671569946,
+              "execution_time": 3.57167439
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5252061814721636,
+              "execution_time": 3.570026527
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5289546249435383,
+              "execution_time": 3.54472749
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5285458529846141,
+              "execution_time": 3.547468946
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5289472379147359,
+              "execution_time": 3.544776994
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5288960299487458,
+              "execution_time": 3.545120201
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5271644462488008,
+              "execution_time": 3.556764902
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5242444326904152,
+              "execution_time": 3.576575893
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5293718459333707,
+              "execution_time": 3.541933736
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.525167280546558,
+              "execution_time": 3.570290971
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5299969221114211,
+              "execution_time": 3.537756394
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5289041673371455,
+              "execution_time": 3.545065658
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5274788457555758,
+              "execution_time": 3.554644921
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.6864535369779925,
+          "execution_time": 11.167138976,
+          "thread_bandwidth_avg": 0.16790334606112453,
+          "thread_bandwidth_std_dev": 0.00026538979461402187,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16810705609907006,
+              "execution_time": 11.153606776
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16820172319739154,
+              "execution_time": 11.147329316
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16804875605604058,
+              "execution_time": 11.157476223
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16798490622343132,
+              "execution_time": 11.161717098
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16799662272706845,
+              "execution_time": 11.160938652
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16829816386242763,
+              "execution_time": 11.140941511
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16835766826670215,
+              "execution_time": 11.137003852
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1682465467258098,
+              "execution_time": 11.144359492
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16829360077221578,
+              "execution_time": 11.141243585
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16813825224123577,
+              "execution_time": 11.151537351
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16793463596831756,
+              "execution_time": 11.165058293
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1679056444468325,
+              "execution_time": 11.166986114
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1679344168048951,
+              "execution_time": 11.165072864
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1682298317804567,
+              "execution_time": 11.145466771
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16818942978385454,
+              "execution_time": 11.148144104
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.16801063130199642,
+              "execution_time": 11.160008063
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 8.325643838064861,
+          "execution_time": 3.60332493,
+          "thread_bandwidth_avg": 0.5203527398790538,
+          "thread_bandwidth_std_dev": 0.0009467689469797361,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5212110412207258,
+              "execution_time": 3.597391175
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5206659542704963,
+              "execution_time": 3.601157296
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5212501879680302,
+              "execution_time": 3.597121005
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5203582674830839,
+              "execution_time": 3.603286653
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5205924630095857,
+              "execution_time": 3.601665666
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5216290963421307,
+              "execution_time": 3.594508077
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5211847805366009,
+              "execution_time": 3.597572435
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5217236289097328,
+              "execution_time": 3.593856778
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.521691409624913,
+              "execution_time": 3.594078732
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5211778721533402,
+              "execution_time": 3.597620122
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.520438324114919,
+              "execution_time": 3.602732376
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5216526576613606,
+              "execution_time": 3.594345725
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5205995807955033,
+              "execution_time": 3.601616423
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.521766667373904,
+              "execution_time": 3.593560335
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5212469842254933,
+              "execution_time": 3.597143114
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.5210720290479864,
+              "execution_time": 3.598350891
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.804216724730462,
+          "execution_time": 10.698174551,
+          "thread_bandwidth_avg": 0.17526354529565388,
+          "thread_bandwidth_std_dev": 0.00038524757948309136,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.175352633437418,
+              "execution_time": 10.692739329
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17578819423245073,
+              "execution_time": 10.666245297
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17541589732123128,
+              "execution_time": 10.688882984
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17545197140637156,
+              "execution_time": 10.686685279
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1753680097638129,
+              "execution_time": 10.691801786
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1754117041987665,
+              "execution_time": 10.689138496
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17556729125006443,
+              "execution_time": 10.679665823
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17586376774741558,
+              "execution_time": 10.661661717
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17528814753116637,
+              "execution_time": 10.696673029
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17582217729303043,
+              "execution_time": 10.664183716
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17526652181261607,
+              "execution_time": 10.697992866
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17578682564498918,
+              "execution_time": 10.666328339
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17540213999138607,
+              "execution_time": 10.689721346
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1757433816893385,
+              "execution_time": 10.668965067
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17574748207650975,
+              "execution_time": 10.668716148
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17583694028446067,
+              "execution_time": 10.663288368
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.684781756960105,
+          "execution_time": 3.903819386,
+          "thread_bandwidth_avg": 0.4802988598100066,
+          "thread_bandwidth_std_dev": 0.0006191280296487388,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48047498862538884,
+              "execution_time": 3.902388354
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48080709284838613,
+              "execution_time": 3.899692887
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4808915852483208,
+              "execution_time": 3.899007713
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4805565063939143,
+              "execution_time": 3.901726384
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48041377643472033,
+              "execution_time": 3.902885579
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48137711564231433,
+              "execution_time": 3.895075065
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4806506549921068,
+              "execution_time": 3.900962124
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4811273834738807,
+              "execution_time": 3.897096828
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48084684586144405,
+              "execution_time": 3.899370488
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4808311307497829,
+              "execution_time": 3.899497932
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48031274461567586,
+              "execution_time": 3.903706535
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48106136564484037,
+              "execution_time": 3.897631641
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4804367288860143,
+              "execution_time": 3.902699122
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4813406458008665,
+              "execution_time": 3.895370184
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48092703415076643,
+              "execution_time": 3.898720319
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.48092541758761703,
+              "execution_time": 3.898733424
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.7502929356716215,
+          "execution_time": 10.907928974,
+          "thread_bandwidth_avg": 0.17189330847947634,
+          "thread_bandwidth_std_dev": 0.00020145587804895864,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17189889015536108,
+              "execution_time": 10.907574786
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17190238926498239,
+              "execution_time": 10.90735276
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17205415312468803,
+              "execution_time": 10.897731708
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17194596459423742,
+              "execution_time": 10.904588569
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17189581731116868,
+              "execution_time": 10.907769772
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1722697475086219,
+              "execution_time": 10.884093273
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1721262289589328,
+              "execution_time": 10.893168411
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17213199292917208,
+              "execution_time": 10.892803645
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1720143630194998,
+              "execution_time": 10.900252555
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1719749521488776,
+              "execution_time": 10.902750526
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1719247381749016,
+              "execution_time": 10.905934887
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17209113714378116,
+              "execution_time": 10.895389682
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17217948148050527,
+              "execution_time": 10.889799318
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1719721500412434,
+              "execution_time": 10.902928175
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17201899246411337,
+              "execution_time": 10.899959203
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17229545719299041,
+              "execution_time": 10.882469164
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.298270277442616,
+          "execution_time": 4.110563032,
+          "thread_bandwidth_avg": 0.4561418923401635,
+          "thread_bandwidth_std_dev": 0.0002913320374496595,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45622766304647366,
+              "execution_time": 4.109790247
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45618033297587857,
+              "execution_time": 4.11021665
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45623702415367134,
+              "execution_time": 4.109705922
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45615892781988326,
+              "execution_time": 4.110409521
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4562526968336489,
+              "execution_time": 4.10956475
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45656712025060575,
+              "execution_time": 4.106734622
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4564456062895028,
+              "execution_time": 4.107827908
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45651901468847084,
+              "execution_time": 4.107167368
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45663935476811435,
+              "execution_time": 4.106084989
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45633220387486556,
+              "execution_time": 4.108848738
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45618961544576936,
+              "execution_time": 4.110133016
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4564871572511829,
+              "execution_time": 4.107454
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45625574430088384,
+              "execution_time": 4.109537301
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45657534180608333,
+              "execution_time": 4.106660672
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.45661022294940723,
+              "execution_time": 4.106346958
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.4561869918450072,
+              "execution_time": 4.110156654
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 16,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.79676069570283,
+          "execution_time": 10.726695368,
+          "thread_bandwidth_avg": 0.17479754348142687,
+          "thread_bandwidth_std_dev": 0.0007169081663890083,
+          "threads": [
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1749366342704005,
+              "execution_time": 10.718166654
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.174843192999024,
+              "execution_time": 10.723894753
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17522095981211852,
+              "execution_time": 10.700774622
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17485465478195675,
+              "execution_time": 10.723191798
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1762964473169348,
+              "execution_time": 10.635495091
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17497956151931593,
+              "execution_time": 10.715537196
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17516101028709094,
+              "execution_time": 10.704437003
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1770315446000227,
+              "execution_time": 10.591332772
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17486624373998186,
+              "execution_time": 10.722481137
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1750054853345978,
+              "execution_time": 10.713949888
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1748053637950944,
+              "execution_time": 10.726215485
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17494920844722364,
+              "execution_time": 10.717396304
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1748609126784034,
+              "execution_time": 10.722808038
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17479992768522332,
+              "execution_time": 10.72654906
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.17484117596355486,
+              "execution_time": 10.724018468
+            },
+            {
+              "accessed_bytes": 2013265920,
+              "bandwidth": 0.1749579370186844,
+              "execution_time": 10.716861618
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.770751926677125,
+          "execution_time": 3.860630256,
+          "thread_bandwidth_avg": 0.24283599770866016,
+          "thread_bandwidth_std_dev": 0.004608843888674834,
+          "threads": [
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24328587265126753,
+              "execution_time": 3.853491326
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2466625878962103,
+              "execution_time": 3.800738523
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24939158847054596,
+              "execution_time": 3.759148437
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2487130648871908,
+              "execution_time": 3.769403913
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24924392500062015,
+              "execution_time": 3.761375528
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24910507394626727,
+              "execution_time": 3.763472117
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24753137932324767,
+              "execution_time": 3.787398602
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24541365053770076,
+              "execution_time": 3.820080904
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2493311069396136,
+              "execution_time": 3.760060313
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24675121065540234,
+              "execution_time": 3.799373456
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24928153365985026,
+              "execution_time": 3.760808056
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24877150540703552,
+              "execution_time": 3.768518418
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24769527918124887,
+              "execution_time": 3.784892482
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2493326955480108,
+              "execution_time": 3.760036356
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24682550302628775,
+              "execution_time": 3.798229877
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2462073311415553,
+              "execution_time": 3.807766388
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24861598939438717,
+              "execution_time": 3.770875728
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24815525506073816,
+              "execution_time": 3.777876877
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2467827727518266,
+              "execution_time": 3.798887538
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24853271764477394,
+              "execution_time": 3.772139173
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24724314615474616,
+              "execution_time": 3.791813907
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24724903940833948,
+              "execution_time": 3.791723528
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2451565190760729,
+              "execution_time": 3.824087581
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24412828501451833,
+              "execution_time": 3.840194101
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24795319458083623,
+              "execution_time": 3.780955521
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2436660220941877,
+              "execution_time": 3.847479398
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24359607245055745,
+              "execution_time": 3.848584218
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24588331434609267,
+              "execution_time": 3.812784135
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24583757868171996,
+              "execution_time": 3.813493466
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2466078902534608,
+              "execution_time": 3.801581527
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24657999082690346,
+              "execution_time": 3.802011659
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2428371961598952,
+              "execution_time": 3.860611203
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 64,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.366231647855767,
+          "execution_time": 12.678386762,
+          "thread_bandwidth_avg": 0.07394473899549271,
+          "thread_bandwidth_std_dev": 0.013383507496633388,
+          "threads": [
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05528715231356423,
+              "execution_time": 12.43507707
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04938121992473738,
+              "execution_time": 12.656633452
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.0645599334167829,
+              "execution_time": 12.585205049
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04958888392905015,
+              "execution_time": 12.603631106
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07554379368905334,
+              "execution_time": 12.410020125
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.0698037891266643,
+              "execution_time": 12.535136143
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0816456528820249,
+              "execution_time": 12.248049525
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.08914496859397439,
+              "execution_time": 12.619893391
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08422206830578247,
+              "execution_time": 12.615458411
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08380499917414413,
+              "execution_time": 12.67824128
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08409936320718875,
+              "execution_time": 12.633864984
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08469754470872755,
+              "execution_time": 12.544637553
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08127568269258933,
+              "execution_time": 12.303803141
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08067619420169035,
+              "execution_time": 12.395230215
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08531144582643684,
+              "execution_time": 12.454366348
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08407359976372097,
+              "execution_time": 12.637736495
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08504706791857515,
+              "execution_time": 12.493082078
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08080578596293803,
+              "execution_time": 12.375351444
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.08886535752477429,
+              "execution_time": 12.659601349
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08406984311113204,
+              "execution_time": 12.638301211
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08084692274685128,
+              "execution_time": 12.369054579
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08145088883352894,
+              "execution_time": 12.277336863
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0802387552176372,
+              "execution_time": 12.462805502
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08428517558507474,
+              "execution_time": 12.606012773
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.06910466465118556,
+              "execution_time": 12.66195277
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08058349306310614,
+              "execution_time": 12.409489363
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08389394606083247,
+              "execution_time": 12.664799427
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08100960001413429,
+              "execution_time": 12.344215992
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04965170402106033,
+              "execution_time": 12.5876848
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.06444322070359523,
+              "execution_time": 12.607998035
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04930320932297619,
+              "execution_time": 12.676659564
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04929956742331203,
+              "execution_time": 12.677596025
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.5645336111412,
+          "execution_time": 3.965875696,
+          "thread_bandwidth_avg": 0.2363916753481625,
+          "thread_bandwidth_std_dev": 0.006541829188227137,
+          "threads": [
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.2249405237074939,
+              "execution_time": 3.889917146
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24099216404531712,
+              "execution_time": 3.89016798
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.23651292667140103,
+              "execution_time": 3.96384254
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.23642317432846452,
+              "execution_time": 3.965347317
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24223799780911737,
+              "execution_time": 3.870160786
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.23651076266709112,
+              "execution_time": 3.963878808
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2415791871130304,
+              "execution_time": 3.880715103
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2408220416388338,
+              "execution_time": 3.892916087
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2521953662747688,
+              "execution_time": 3.965179911
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2410152124066604,
+              "execution_time": 3.889795962
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2422685821018062,
+              "execution_time": 3.8696722119999998
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24187707608125444,
+              "execution_time": 3.875935724
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2416661875983571,
+              "execution_time": 3.879318035
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2521607668721311,
+              "execution_time": 3.96572398
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24130951844865284,
+              "execution_time": 3.885051887
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24083460428304715,
+              "execution_time": 3.892713021
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24178272442255783,
+              "execution_time": 3.877448243
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24158629230090262,
+              "execution_time": 3.880600969
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2413470260710881,
+              "execution_time": 3.884448113
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24181846732178547,
+              "execution_time": 3.876875122
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24131102288011352,
+              "execution_time": 3.885027666
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24127968953528586,
+              "execution_time": 3.885532188
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24095498827811812,
+              "execution_time": 3.890768175
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24052554139620874,
+              "execution_time": 3.897714956
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2417688655660867,
+              "execution_time": 3.877670509
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24150809593717784,
+              "execution_time": 3.881857444
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.24115850613994755,
+              "execution_time": 3.887484688
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2418189218462228,
+              "execution_time": 3.876867835
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.2248111990331353,
+              "execution_time": 3.892154856
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2364747089552143,
+              "execution_time": 3.964483154
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.23642450546369354,
+              "execution_time": 3.965324991
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2364687682523621,
+              "execution_time": 3.964582752
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 128,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.397162850182141,
+          "execution_time": 12.514794311,
+          "thread_bandwidth_avg": 0.0749113390681919,
+          "thread_bandwidth_std_dev": 0.012578194438857292,
+          "threads": [
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09028886753022572,
+              "execution_time": 12.46000787
+            },
+            {
+              "accessed_bytes": 603979776,
+              "bandwidth": 0.04590012888763536,
+              "execution_time": 12.254867549
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.0852621151681472,
+              "execution_time": 12.461572152
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08606249807142548,
+              "execution_time": 12.345679289
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.06119970437027478,
+              "execution_time": 12.254961159
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08154096045088961,
+              "execution_time": 12.263775095
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08153200426455921,
+              "execution_time": 12.265122255
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08573529803582731,
+              "execution_time": 12.392795317
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0804178648065036,
+              "execution_time": 12.435047889
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.06995587723882794,
+              "execution_time": 12.507884034
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05577464552034226,
+              "execution_time": 12.326389412
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07148669489675431,
+              "execution_time": 12.24003993
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08168151090698259,
+              "execution_time": 12.242672655
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08186392143937096,
+              "execution_time": 12.215393331
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09014170719868833,
+              "execution_time": 12.480349385
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08639513984816495,
+              "execution_time": 12.298145496
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08523119517398335,
+              "execution_time": 12.466092935
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08046974651640615,
+              "execution_time": 12.427030571
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07687948083566555,
+              "execution_time": 12.194411172
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08200050517198416,
+              "execution_time": 12.195046822
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08502640852227575,
+              "execution_time": 12.4961176
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05494197692974833,
+              "execution_time": 12.513200988
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08490159567492532,
+              "execution_time": 12.514487997
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.0650190598432482,
+              "execution_time": 12.49633572
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07538217818747005,
+              "execution_time": 12.436626568
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08172582374263807,
+              "execution_time": 12.236034514
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08490047490210112,
+              "execution_time": 12.514653201
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08188809766752793,
+              "execution_time": 12.21178692
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.04997055760730468,
+              "execution_time": 12.507364935
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08020617704908123,
+              "execution_time": 12.467867648
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05118163918844415,
+              "execution_time": 12.211410379
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07136502215799727,
+              "execution_time": 12.260908405
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.7643338036022085,
+          "execution_time": 3.863821515,
+          "thread_bandwidth_avg": 0.24263543136256902,
+          "thread_bandwidth_std_dev": 0.01269876344463289,
+          "threads": [
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22667333949456855,
+              "execution_time": 3.860180478
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22650047672124823,
+              "execution_time": 3.863126527
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25882334583597794,
+              "execution_time": 3.863639104
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2588663127467321,
+              "execution_time": 3.862997813
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22726915961916888,
+              "execution_time": 3.850060437
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.2270654388207815,
+              "execution_time": 3.853514672
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25043627849603317,
+              "execution_time": 3.743467223
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2500712090104503,
+              "execution_time": 3.748932169
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25885223119078477,
+              "execution_time": 3.86320796
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2502601491622724,
+              "execution_time": 3.746101819
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25883039084708276,
+              "execution_time": 3.863533941
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25885399194642383,
+              "execution_time": 3.863181682
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25028130838184437,
+              "execution_time": 3.745785117
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25889810569338234,
+              "execution_time": 3.862523433
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25015995647885986,
+              "execution_time": 3.747602187
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2500056781289617,
+              "execution_time": 3.74991483
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25885463258653496,
+              "execution_time": 3.863172121
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25045444498205816,
+              "execution_time": 3.743195694
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25034025138795807,
+              "execution_time": 3.744903166
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25036239636409835,
+              "execution_time": 3.744571923
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2503513708193596,
+              "execution_time": 3.744736835
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.249983382171349,
+              "execution_time": 3.750249284
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2498937866109824,
+              "execution_time": 3.751593878
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2503876339097003,
+              "execution_time": 3.744194493
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25043276919543267,
+              "execution_time": 3.74351968
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2501372915545016,
+              "execution_time": 3.747941757
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.25883771474779343,
+              "execution_time": 3.863424621
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.25022691464091096,
+              "execution_time": 3.746599367
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22676972757296085,
+              "execution_time": 3.858539715
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22698807131950363,
+              "execution_time": 3.854828119
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.22713611634404673,
+              "execution_time": 3.852315581
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.2271496489789238,
+              "execution_time": 3.852086076
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 256,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.4941933999143613,
+          "execution_time": 12.027936567,
+          "thread_bandwidth_avg": 0.07794354374732379,
+          "thread_bandwidth_std_dev": 0.01228667508855046,
+          "threads": [
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.06250029748579096,
+              "execution_time": 11.999942883
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05229069875760559,
+              "execution_time": 11.952412472
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07794464970141846,
+              "execution_time": 12.027765903
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05270603409647559,
+              "execution_time": 11.858224788
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07832989203520273,
+              "execution_time": 11.968610905
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08554180374027512,
+              "execution_time": 11.690190717
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08491550993163334,
+              "execution_time": 11.776411645
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09373733543763246,
+              "execution_time": 12.001621283
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08840684266585859,
+              "execution_time": 12.018300484
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08969238427428554,
+              "execution_time": 11.846044774
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07804940710692412,
+              "execution_time": 12.011622314
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08315653344451959,
+              "execution_time": 12.025513313
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.0779771721182349,
+              "execution_time": 12.022749409
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08523616434600394,
+              "execution_time": 11.732109342
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.09101931863321852,
+              "execution_time": 11.67334601
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08989253937205362,
+              "execution_time": 11.819668322
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.06896285631267822,
+              "execution_time": 11.781704579
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08889910683927484,
+              "execution_time": 11.951751123
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08462303328842773,
+              "execution_time": 11.817113629
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08575063439144673,
+              "execution_time": 11.661721305
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.0883657358621474,
+              "execution_time": 12.02389127
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08571679308967192,
+              "execution_time": 11.666325395
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0845550837892405,
+              "execution_time": 11.826610006
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05814213103681391,
+              "execution_time": 11.824471992
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08357938766565583,
+              "execution_time": 11.964672486
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08353560451783261,
+              "execution_time": 11.970943477
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05751633420576415,
+              "execution_time": 11.953126177
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08539357621234787,
+              "execution_time": 11.710482736
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07998725934606982,
+              "execution_time": 11.720616604
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08314532298108765,
+              "execution_time": 12.02713471
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05261408056310073,
+              "execution_time": 11.878949386
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08333265868601739,
+              "execution_time": 12.00009715
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 7.022928436627506,
+          "execution_time": 4.271722298,
+          "thread_bandwidth_avg": 0.21946651364460956,
+          "thread_bandwidth_std_dev": 0.016570747147349296,
+          "threads": [
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23411125187315457,
+              "execution_time": 4.271473464
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22690616781215053,
+              "execution_time": 4.131663802
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.1955661855411957,
+              "execution_time": 4.15460371
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22702191758584964,
+              "execution_time": 4.129557225
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.19533603785169382,
+              "execution_time": 4.159498723
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23421017543073344,
+              "execution_time": 4.269669318
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.19522243506815068,
+              "execution_time": 4.161919196
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.19523043498051673,
+              "execution_time": 4.161748654
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23412066427841785,
+              "execution_time": 4.271301737
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22693885296172367,
+              "execution_time": 4.131068734
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23423395437741415,
+              "execution_time": 4.26923587
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23413525939615934,
+              "execution_time": 4.27103548
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23412563971345507,
+              "execution_time": 4.271210967
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22707068143181236,
+              "execution_time": 4.128670395
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.2269940830385774,
+              "execution_time": 4.130063601
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22688469229624558,
+              "execution_time": 4.13205488
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341149520798076,
+              "execution_time": 4.271405953
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341103678221907,
+              "execution_time": 4.271489594
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341127348795302,
+              "execution_time": 4.271446406
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23412343173870817,
+              "execution_time": 4.2712512479999996
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341058515385464,
+              "execution_time": 4.271571998
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22685844498002314,
+              "execution_time": 4.132532955
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341057184707473,
+              "execution_time": 4.271574426
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.22667461363602856,
+              "execution_time": 4.135884407
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23419648841063878,
+              "execution_time": 4.269918848
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2341139704950218,
+              "execution_time": 4.271423862
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23413646032915567,
+              "execution_time": 4.271013573
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23410162928553702,
+              "execution_time": 4.27164904
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.1954893163742432,
+              "execution_time": 4.156237359
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.19566877653045245,
+              "execution_time": 4.152425412
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.1954956667513253,
+              "execution_time": 4.15610235
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.19536725735643137,
+              "execution_time": 4.158834039
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 512,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.4700934788540745,
+          "execution_time": 12.145289341,
+          "thread_bandwidth_avg": 0.07719042121418983,
+          "thread_bandwidth_std_dev": 0.012060732783876739,
+          "threads": [
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07215504552620247,
+              "execution_time": 12.126664097
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08233726960428446,
+              "execution_time": 12.14516834
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08755333235120276,
+              "execution_time": 12.135460427
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08431528352206598,
+              "execution_time": 11.860245951
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08517385001168523,
+              "execution_time": 11.740692711
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08446370289021113,
+              "execution_time": 11.839405162
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05171570952725161,
+              "execution_time": 12.085302623
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09278827453317132,
+              "execution_time": 12.124376767
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08502809884554652,
+              "execution_time": 11.760818054
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.0887303650753716,
+              "execution_time": 11.974480203
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.0518940045186506,
+              "execution_time": 12.043780506
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07434093784537754,
+              "execution_time": 11.770096334
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07850458846746297,
+              "execution_time": 11.941977129
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0845961357056741,
+              "execution_time": 11.820870914
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09274859022513852,
+              "execution_time": 12.12956442
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07826745751488563,
+              "execution_time": 11.978158353
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.051491281472741006,
+              "execution_time": 12.13797719
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08824092312887688,
+              "execution_time": 12.040898512
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08367697164471097,
+              "execution_time": 11.9507193
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08488241166216477,
+              "execution_time": 11.781003631
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08751592673727836,
+              "execution_time": 12.140647304
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08245655870637927,
+              "execution_time": 12.127598043
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08377949784453863,
+              "execution_time": 11.936094459
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08277253777416722,
+              "execution_time": 12.081301684
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08327475130150205,
+              "execution_time": 12.008441747000001
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08288031801719066,
+              "execution_time": 12.065590769
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0827433139024418,
+              "execution_time": 12.085568644
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08395053188615302,
+              "execution_time": 11.911776823
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.0628910024552551,
+              "execution_time": 11.925394265
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.06691783279606585,
+              "execution_time": 12.141756032
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.05814798779646903,
+              "execution_time": 11.823281012
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.06180445180324177,
+              "execution_time": 12.135048174
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "nocache",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 6.950727609371738,
+          "execution_time": 4.316094902,
+          "thread_bandwidth_avg": 0.2172102377928668,
+          "thread_bandwidth_std_dev": 0.022696430172413292,
+          "threads": [
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2317456448551382,
+              "execution_time": 4.315075697
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.1807783786799128,
+              "execution_time": 4.148726222
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2318533936997618,
+              "execution_time": 4.313070359
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.17941701442450572,
+              "execution_time": 4.180205553
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.18100488435309053,
+              "execution_time": 4.143534594
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23178935187861333,
+              "execution_time": 4.314262031
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2318581688894921,
+              "execution_time": 4.31298153
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.17961637690845372,
+              "execution_time": 4.175565797
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23181753034453745,
+              "execution_time": 4.313737613
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23206716087129192,
+              "execution_time": 4.309097402
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23169900297263749,
+              "execution_time": 4.315944338
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23179316274798464,
+              "execution_time": 4.314191101
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2317096157964516,
+              "execution_time": 4.315746658
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23183899846902892,
+              "execution_time": 4.313338164
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23182002183586506,
+              "execution_time": 4.313691251
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23175827580870248,
+              "execution_time": 4.314840523
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2317681374105839,
+              "execution_time": 4.314656929
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23185447586677166,
+              "execution_time": 4.313050228
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23169926495294227,
+              "execution_time": 4.315939458
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23175495651463324,
+              "execution_time": 4.314902322
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23171953334109774,
+              "execution_time": 4.315561945
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23178302497316813,
+              "execution_time": 4.314379796
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2317796067666733,
+              "execution_time": 4.314443423
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23171192574990426,
+              "execution_time": 4.315703634
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.2317251885250961,
+              "execution_time": 4.315456625
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23172314044889214,
+              "execution_time": 4.315494767
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23169902933169464,
+              "execution_time": 4.315943847
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.23176638331254748,
+              "execution_time": 4.314689584
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.17965214013594163,
+              "execution_time": 4.17473457
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.18138795790054954,
+              "execution_time": 4.134783856
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.17974616282834613,
+              "execution_time": 4.172550825
+            },
+            {
+              "accessed_bytes": 805306368,
+              "bandwidth": 0.18120228671081465,
+              "execution_time": 4.139020614
+            }
+          ]
+        }
+      },
+      {
+        "config": {
+          "access_size": 1024,
+          "exec_mode": "sequential",
+          "memory_range": 32212254720,
+          "memory_type": "pmem",
+          "min_io_chunk_size": 67108864,
+          "numa_pattern": "near",
+          "number_partitions": 1,
+          "number_threads": 32,
+          "operation": "write",
+          "persist_instruction": "none",
+          "prefault_file": true
+        },
+        "results": {
+          "accessed_bytes": 32212254720,
+          "bandwidth": 2.486200505078047,
+          "execution_time": 12.066605223,
+          "thread_bandwidth_avg": 0.07769376578368897,
+          "thread_bandwidth_std_dev": 0.012877990988425788,
+          "threads": [
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05198866678007849,
+              "execution_time": 12.02185089
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08423940215698617,
+              "execution_time": 11.870929451
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.05203499548065283,
+              "execution_time": 12.011147387
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.053266515897608745,
+              "execution_time": 11.733449982
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07769971662279318,
+              "execution_time": 12.06568107
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.06739318461713595,
+              "execution_time": 12.056115238
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08908283511313783,
+              "execution_time": 11.927101317
+            },
+            {
+              "accessed_bytes": 1006632960,
+              "bandwidth": 0.07999258242221953,
+              "execution_time": 11.71983666
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08474054458302684,
+              "execution_time": 11.800726617
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08397049896738039,
+              "execution_time": 11.908944359
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09333820277769274,
+              "execution_time": 12.052942595
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08551174395596674,
+              "execution_time": 11.694300148
+            },
+            {
+              "accessed_bytes": 738197504,
+              "bandwidth": 0.057016744634024064,
+              "execution_time": 12.057861325
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07478241439470111,
+              "execution_time": 11.700611796
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08902654278789057,
+              "execution_time": 11.934642936
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07300581895750173,
+              "execution_time": 11.985345997
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0849363122177502,
+              "execution_time": 11.77352741
+            },
+            {
+              "accessed_bytes": 1207959552,
+              "bandwidth": 0.09327918402243314,
+              "execution_time": 12.060568623
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08944198490153937,
+              "execution_time": 11.879208642
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.088053975146511,
+              "execution_time": 12.066462624
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08932103375900265,
+              "execution_time": 11.895294482
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08408646187852797,
+              "execution_time": 11.892520837
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08505322870647397,
+              "execution_time": 11.757343198
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08557846903583796,
+              "execution_time": 11.685182164
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.0852202139684231,
+              "execution_time": 11.734305201
+            },
+            {
+              "accessed_bytes": 939524096,
+              "bandwidth": 0.07294948294901742,
+              "execution_time": 11.994601807
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08813391845670461,
+              "execution_time": 12.055517542
+            },
+            {
+              "accessed_bytes": 1140850688,
+              "bandwidth": 0.08806169115235665,
+              "execution_time": 12.065405355
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08322340785458014,
+              "execution_time": 12.015850177
+            },
+            {
+              "accessed_bytes": 671088640,
+              "bandwidth": 0.051903143370426244,
+              "execution_time": 12.041659896
+            },
+            {
+              "accessed_bytes": 872415232,
+              "bandwidth": 0.06745871923558965,
+              "execution_time": 12.044402995
+            },
+            {
+              "accessed_bytes": 1073741824,
+              "bandwidth": 0.08324143235026996,
+              "execution_time": 12.013248352
+            }
+          ]
+        }
+      }
+    ],
+    "bm_name": "sequential_writes",
+    "bm_type": "single",
+    "matrix_args": [
+      "access_size",
+      "number_threads",
+      "persist_instruction"
+    ]
+  }
+]
