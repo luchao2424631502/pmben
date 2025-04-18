@@ -1,0 +1,6 @@
+CC=gcc
+
+.PHONY: 
+
+main:
+	
