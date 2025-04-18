@@ -1,0 +1,7 @@
+[submodule "perma-bench"]
+    path = perma-bench
+    url = git@github.com:hpides/perma-bench.git
+
+[submodule "perma-bench-devdax"]
+    path = perma-bench-devdax
+    url = git@github.com:luchao2424631502/perma-bench.git
