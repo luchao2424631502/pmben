@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# sudo mkfs.ext4 -O ^has_journal,^metadata_csum /dev/pmem1
 sudo mkfs.ext4 -O ^has_journal,^metadata_csum /dev/pmem0
+sudo mkfs.ext4 /dev/pmem1
 
 dev0="pmem0"
 dev1="pmem1"
@@ -23,7 +23,7 @@ fi
 is_mount=$(mount | grep -w "${dev0}")
 if [ ! "$is_mount" ]
 then
-    sudo mount -o dax,noatime,nodiratime /dev/${dev0} ${mount_dir_other}
+    sudo mount -o dax,noatime,nodiratime,norelatime /dev/${dev0} ${mount_dir_other}
     sudo chown -R $USER:$USER ${mount_dir_other}
 fi
 
@@ -31,6 +31,6 @@ is_mount=$(mount | grep -w "${dev1}")
 # mount
 if [ ! "$is_mount" ]
 then
-    sudo mount -o dax,noatime,nodiratime /dev/${dev1} ${mount_dir}
+    sudo mount -o dax /dev/${dev1} ${mount_dir}
     sudo chown -R $USER:$USER ${mount_dir}
 fi
