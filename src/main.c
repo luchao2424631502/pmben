@@ -5,53 +5,25 @@
 #include <fcntl.h>
 #include <stddef.h>
 #include <unistd.h>
+#include <sys/mman.h>
 
 #include <libpmem2.h>
 
 int main() {
-    size_t map_size = 4096;
+    size_t map_size = 128*(1<<20);
 
-    struct pmem2_config *cfg;
-    if (pmem2_config_new(&cfg)) {
-        fprintf(stderr, "Error: pmem2_config_new failed\n");
-        return 1;
-    }
-
-    // 设置对齐方式（通常为 4KB 或硬件页大小）
-    if (pmem2_config_set_length(cfg, 4096)) {
-        fprintf(stderr, "Error: pmem2_config_set_alignment failed\n");
-        goto err_config;
-    }
-
-    struct pmem2_source *src;
-    int fd = open("/dev/pmem0", O_RDWR);
-    pmem2_source_from_fd(&src, fd);
-    
-    // libpmem2 不会使用 MAP_SYNC
-    struct pmem2_map *map;
-    pmem2_map_new(&map, cfg, src);
-    
-    // 必须显式调用 pmem_persist() 来确保持久化
-    void *addr;
-    size_t length;
-
-    addr = pmem2_map_get_address(map);
-
-    memcpy((char *)addr, "luchao", strlen("luchao"));
-
-    printf("%lu\n", pmem2_map_get_size(map));
-
-    pmem2_deep_flush(map, addr, strlen("luchao"));
-    
-err_config:
-    pmem2_config_delete(&cfg);
-    if (src)
+    int32_t dax_fd = open("/dev/dax1.0", O_RDWR);
+    if (dax_fd == -1)
     {
-        pmem2_source_delete(&src);
+        printf("!!! DAX DEVICE Could not open file: ");
     }
-    if (fd >= 0)
+
+    void *addr = mmap(0, map_size, PROT_READ | PROT_WRITE, MAP_SHARED, dax_fd, 0);
+    close(dax_fd);
+    if (addr == MAP_FAILED || addr == NULL)
     {
-        close(fd);
+        printf("!!! DAX DEVICE Could not map file Error: ");
     }
+
     return 0;
 }
